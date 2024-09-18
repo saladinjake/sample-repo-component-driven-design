@@ -12,3 +12,17 @@ export const verifyInputNumberOnly = e => {
     return
   }
 }
+
+
+export   const selectInputId = (length) => {
+  const randomChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz"
+  let stringID = "HTMLSelectInput_";
+  if (!length) {
+    length = Math.floor(Math.random() * randomChars.length)
+  }
+  for (let i = 0; i < length; i++) {
+    stringID += randomChars[Math.floor(Math.random() * randomChars.length)]
+  }
+  const uniqBit = Date.now()
+  return stringID + uniqBit
+}
