@@ -1,0 +1,1135 @@
+{
+  "v": "4.8.0",
+  "meta": { "g": "LottieFiles AE 3.4.4", "a": "", "k": "", "d": "", "tc": "" },
+  "fr": 30,
+  "ip": 0,
+  "op": 74,
+  "w": 600,
+  "h": 400,
+  "nm": "Nerve 2",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 83,
+      "h": 91,
+      "u": "",
+      "p": "data:image/png;base64,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",
+      "e": 1
+    },
+    {
+      "id": "image_1",
+      "w": 66,
+      "h": 91,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABbCAYAAADHjVO7AAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAD3UlEQVR4nO2cTVIaQRiG3wYrWeISccMN8Ab2DcINHPZgxhNoTpBR2IM3IDdob4A3IAuBJS5NBTsLPiiMOPz1O9Op9LMTpj6op3qm3/66RemTywSwZzgYNTDju/jwOvlwJBLODy9lDy+RI4W8v4AvBBFCECEEEUIQIQQRQhAhBBFCECEEEUIQIQQRQhAhBBFCECEEEUIQIQQRQhAhBBFCECEEEUIQIQQRQhAhBBHCUd5fYBv0ScvAybbkOx7NuH0G/AMjQleaPZAk4HNRL/7wWoSuXN7AqgvnhRWeYYt1M0ymi5e8FaHLrQjWXjsvrPAMVdRmkgxXX/byGaHLTQ2FLqX4q62bSTL4+2XvRoQ+jc9QUH1KcYuGmXTMure8EqGr8THszMCiRCh/ZSbt3kdvenNr6Gp8jJeZAQgSlL03o06Sdok/I+Jl1gdQI1T+YUadaNNFXoggZ4VomwtzF0HLChKYVrNCGrk+I8hZIdpWApDjiKBlhUVgenqfFdLIRQQ1K8BGu0oAchBBzQoWDTPq7CU4UxHLrEAJTOo2LTBtItsRwcoKyt4feg48MxHErPCwTWDaRCYiyFmh7qIQXQQtKwA/dwlMm6AGKnJWqLuSABBHBDUr7BGYNkERQc8KjiUAhFuD2lewaBySFdJwPyLmEjhZgSQBcCxCsgJHgoOskIbLW+McVnF2o8gSAA8aMxt4sxvFxF8Ra3ajmHgs4v1uFBN/RcxmDv47eXv8FaHQ1eVWlNXH+SsCAApI9GmcycjwW4RFCXZmdDmusj/KnQiFZ2e1VrEoQc36uhofU+oL7kRYDGDRcFbvLTWJ7jSc3hpm0u5B2XuXNVeoSYSn4PwZYUadiCbDqgtdubxhlOY8LD8dxQAeKbWtvWZMqxQRZphMZY3AkaHQ1eWmdlmSNn2aYTJFoRjRZpOC6rvMGNQcYZ6SAVRRU2QsMoajaZUeqMxTMsArOL9GZFHCixsZmSRLM2n3yBmjd2iRzCL2vN+obknlvxyaMTJda5jxXUzNGCetvW/BzBdd0n/kTKvA930zRj6rT2bG2HPpnosIM0ymsMU6dVrdUUZu/QgzSYbUjPE66+0yrebamJnvYdqIVL62S8bIvUNlRp0+NWP8+p16BntB7iKARR9DfaMUt+pi/pud6XghAgDM6O6G19SxXzdNq96IAJYZ44FSXKGrK80Pz1t5JQIA5HAYKXCp3kfTqncilk0dZsZYsz3gnQhAZDAzxprtAS9FAIs+hnVyhnINNTkFvMRbEQBgJh1DzBjnq0t3r0UAiz4GrijFV7YHvBcBAGbcTnh9DHudNq3+d/wBqIeGSOtnCaMAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_2",
+      "w": 59,
+      "h": 63,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA/CAYAAABetLClAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAACbElEQVRoge2by3UaMRSG/6uZA96ZJdgLTweeDqJ0kFTAFOBxVIJdQcYOBZAOKEF0MHRAFiEsyS7JCdwseHgwfkDmDmAdfVs4P/dD0ki6B0i3rjOAY5SF0bXjL93SOY8Qqw+Uh4ugd6WzFNnSGU8iVB8YqnzI28HLuoqXdRUv6ype1lW8rKt4WVfxsq7iZV3Fy7qKl3UVL+sqXtZVvKyreFlX8bKu4mVdxcseGQ2poLcgeykVdNSyunmlJfPkZJm1WNYSUh8k4yRHVmxtPcDishOhrEsdGTFh3UwTABdSeQCgQJSLpf2aioyEjkwDCplEVhEFZqmRBQg3Ijm/pz0wTkWyCigwy40scKFbqSkToM+uuhD5+d4mCiehpCwAfF6st53QkWnoVmrB1BauZwUBgG6lOQQ373ky3aKmMjvMXlwmOjIN/JkZgE0VU7dAfyF7nQH8STye8BPgHpjyjeWilAZzDIKuWHJJP5wXNbNgkpdlnALUBtAG0aPXePmevbGqQJ+lkz19w4ei/3CCYuoero79UJBV4pv4sbGSteNsCOKvhyymatYvArXQzJ+gRwTRrVTUmux8T+REKlyAgR3d30iFbVzx7KjTO5LpPEA90JKBT95n7aiTHFj4G1SQvHb62pVnL+8HFB6gHsT2eyZ9Zn+5U7EQ/ri/hxbdoR5o6RFd8mpbxo46PdSCCKC7KgpYMADze/vj3lQlChSOi9ugmyaCmiVgTiDTMulv8x8+3UolTtD9nWTXCjg3MWZTDeIYTDG2uyIOQJxjRhYIrB1nw60+S6KlGoST/5Z9Dn1uYkz/rjfeTsK8yum5Lf8AP2O3h1zJk6AAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_3",
+      "w": 65,
+      "h": 91,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABbCAYAAAAsuui4AAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAFH0lEQVR4nO2bsW4bRxCGv7kTLAGJIQZIIVFF7g3CVDbSeN8gcpXSTBlANO4NLL/B2dIDUF06y2+w6oI0od7gXMhiFwpIEQsiJ8WdZVIiKVKcpWjgvk4S+e/o59xyd2dW+Epx2y1vIqS010yEHoZnJiqR+MhE6CunMoHKBKAyAahMACoTgMoEoDIBqEwAKhOAygSgMgGoTAAqE4DKBKAyAahMACoTgMoEoDIBqEwAKhOAygSgMgGAIMUXt7XnEGkgUkO1AdRuvUjEo9pDteO7hz5EHLNiYoLbShOkvws0gR+v/6A6+U2qRQVJBLfdAjgBjlmP2z7PehZxzYos8ubyE0+BX4ziKRA9YrC277tZPnHs7dYUh+cZS17fywS3kzYY9DOs6oGTED3i0Vo6LjMsTZh7YnT1l/sM+n8T2gAAlRdc9nNX39sNOczMJrgkrbntVgfVVyEDuoWyico7V3+5H2qImUxwO2mDy37O8KS3bFRfufpeO4T0nSa4nbSB9j3KZogA5kLlRYiMmDoxrpQBw4g+R+WdjdaUidElaY1Bv71yBgAgbUu1yY/Dp36bh5wDpmH8wYw1ofxKsl0ArTC3THBJWrNOt1XndiZcXmWrOQ+EY2QD5bbSBO2/CDqicIHSQcSP/F6pgTZYxkr0BqO7yOhqH11oTzUZ0SNkLfNnWeeul7r63i4qKUsy5Po/dkla41P/nwBjnKBxc9qOcBJua88RyXHQx3NknfCp37QfQI/8+YG7jwEAvnvoeRQnwKlpXDcYnhibpsqiR/7j4cKaPs96rMeOgEZEUE6ItgujEwsDPuPzrIfGuwgXVprDFJlQHI3ZIFygcdNMr8R3sxxl31oXvjwOzk5SsvvOAXfhzw8y4IO1bpkJhiYMoraZ1jgCZENULJDMvoLeh8qCz/juQdt6boiIrhpmasqxmdb0gUzHiSCyM4HY22lNYXBjyb0gUbFmN0C4CP0oXBPHdy695yEqNy2Lo5gGNo1Z9h/zYFeQFc3NtGbD7KvSsCod5XZaM2E2XlWapzIBqEwAKhOAygTA0gQ1Wm/Mjs0iD9tMMAtqRswOgaJbR9/3RVhaJpQnYWZEqNo0SSmb1sFNxHLnS2GC4Tq87+y0pqCR6TgRG2t2JghBe4u+oKbjRGVnmNVm5JfQj4TbSRvAD5aa5RmjejvFQdNMaxx6lVpLFiaYntRoGiobivNQMS8YFyZsxHZndsom0m+b6Q0TSDeCssID7w11n1l3mZV6QarUX1aM1ifFqq/cdsvk+XVbrWbIJtKRZgRXb/XMy+BT+pNnwdVf7gftohV5HQ//nDx+uoFpSQ5AGgz09+SbJ93k+5/zvPfnf7O8y9X3dpNvn/wB/Gobz83w5GQ0E5K0xmU/D9YUUbTqeEQ6DAZ+zAsSInWoOIzXApNjGtPqHzz9Vo2xHa2PoiCV31XmlglFQ4Q2HyCWByMe98v837/y5PHT74CnS45n+YicTDxZ8udvUwI3TC2EYXl++vFa0TC1gvODvLGsfU41wedZjyhcw9Q9OS2z1Iw7D1r9WdZBwrbQzcFpmZ2mzHTa7M+yTjn4iXUAc3DKeuxCXByd+YZsObh7mMWUvLF+BIaZu+7gP77dJ4p/YjlZ8QHR5yENgHsWX/xZ1vHnBw7lN0LMFcIFIq9Zjxv+42HwZrCFLoz77kEbaBfd6DRBdhfcfL1HOfbnB+1F4poX88sN5T1qh2gDlYSiPDdaMvt88QN61zvKjbXOsm/LVwzxPyjorIrKEOx0AAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_4",
+      "w": 65,
+      "h": 64,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABACAYAAABFqxrgAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAEpUlEQVR4nNWcQVIiSRSG/5dF6KxaloCLqRs0vZnoXecNZE7QNXuYqRs0nkBi5ADlCRpP0OlulnKCKRZts9SIWYyG1OtFFSoKCPhnid/KCPF/yU/mq8yXDwVkbC0OYW6bgGlCtQmguvDFIg6ZpkDg3LiXsseyKsIQyd94FkG1BeD9hjIjQAZQ01vFELsfNzG5XWzwylTSF5lga20LkS6ATy8fzAxnUO26cd8tjF3vOEpckcPKJn9na3EImfQAHLx4EPP5BJFvtt45xW4QubR36SkOAMCs+we23olhJufwZ8BDDnAzSW2j3fIZZGUTbBhXbb0zAHAExZ7HMc2i2IPKV9v4s+srxEom2DCu4nriUM6nPx/VL7bRTnxIP2vCAwM2zfo8VD77mBHBsl9ulQH32PDdb0NAPgIIX6wmcrZ8JlxPBtguAwokwbJN2JosNKGYduznP4c8MdM+nLkm2P24CdUvrCDbzvyZkE2ScofxujwxwdY6EbYyD/hjZttsw7iKm0kP6jXmCKIOMCmQnSPDJQyq+akTVUAtSv4QZs8O/09aEE+7QdETSKXnvvfOF7xiMP0hP5tkMUSjMnanM6dIW++kAH4lxxjCBNGSN7+Q4qCWwOdTSuTwzgTbaLeg8pUcgnIKtI12ApXPrEHN8OgozT6pDd2PY4qmu+hHttGGLyMePB2EZ4LgCruBpekhNwLAkKk5xQDTpcBMQOqnEKIa0zUxnQlqLFHzzF30B8+/bH3cuO8gesLWLZaDWpqiapemNY8MCVtymhNYm5PRsuIog0J/xNQ0tta2PDnxsgx8xzGAhDQ1zcoxQTLHlDMwEtLUfqmsvSvciJ2KY8qZ4qqMwcj3/cAUdhwDXpkqJemsyhlLaO3LlyWUMgt8wDNBpJx84AHmTCgX0ZQlZSBgJcZyUUNbfgaKNzqNaU+1N7wciPBMUOIhrGTe7kwg5jJDy7JlJ1hiEcjk9X8Cij1bi0OK1jNwT76AyVvoWEwsT2sJxlDjGAQB7xEp9Ir1fPJWQRpmk0uRJRzYMKb1DcyjWHLUa7rp04F2IsNN5qUifIe57dIlAeTttTQ09jUbbC0OfVzAFCYYXllMsYdrT/0NeQMpHQMARV5gVnAPbL1DXRaFnpcWwofXcOwi6VHR8PFiCp0jhtY87m+l82vwf/kR9AQ7lXiTumDeQph1Af2LPq4pD6/mAWLn+JNAuAKkh8wkK7Xxh3G1aBjpgt8v8Whsj03IW/e/eQ0KDAFxgKZQvd+j3LXsaBNltg8/NgHwOBu2FZHDp0dpDaLSB/LKPOltTv/75zJ891EA2PKH8wos6m12F3934akrZBtZXFkyQZRn9a2FtrlbaEK+i9SIFYiKyCGI135La4zuoj+A4g9WMBKnxXKl8Wyh1Y2Pky0yYojdIGKLrlRtduPjBCb48Ko5QvQEu4H1cf2/csndfe+dYycIAZyyB/EsIofuou/t+5Fr3Tu4tHfpfhy3IPo7yM1TCziDCT6wc8BjNvqGbNGnOLC1TuTpkDOCouvGxwlZdy4bmTClGGRi9+MmsiwCtIVNDRFcATpAhsR3G+DT0GQ2+tcBQXBOrnqvxU/I5JVujTKrtgAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_5",
+      "w": 21,
+      "h": 21,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAABO0lEQVQ4ja2VMW7CMBRAnx0kWCroloqFI2Tsho+QI+QCLTkCR7DEAcot2tGM3cgNslRlBKlLpSTukKQEmgAFvy3f+c8/9tePoAM1jgOKIgIbHCwIm1IIYzaLZVeuaJflGph2JVWZOyxz87nQJ6XKf4oQvJyU/WVF3wtNqrd1QN4oBJjynZtmwIPqk7GvVwhr/Mnd43369f62r7Q8wxuxM+XHEwBZVnnmUi5FZnMAWbaNK0RYSo/78BYsQzWOA3n+zX+SZyP3Uhp96lYqbOrUOOitJYUwDpWJSfVWms1iiWDnRGnRUJ+pZe5AmdTjUAJU42t1tU6wQ3pR/bi//b4XAslVQuEp86HX+9AR6uFZg51dqEyQXtQUtkoBlB9PyuEgQizDVplFd/1SWqUHG4zjgDwb/QYGvXVzyrfxA7YHaTYfFlZsAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_6",
+      "w": 41,
+      "h": 53,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAA1CAYAAADcdMIWAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAACUUlEQVRogc2YzVXbQBRG79icsCRLQxa4g7gDqwPoIC4AiFJBnAoyAQpwOnA6mHTgdOAsAC+dJTmxJwsMB0kzY/3MjPQtn0bSPU9Xf08kx1cS9Ijn9PqpupMLWkqBB7E42BXGL7XtZp4M05FaynV8RCjwoOkZVp3yuJlFIioVEyTAWXJ8mUYlccQGCfA1eZeOHNujxQX57OfbSCzWuCE74uc+SICzZHA5CQ3iignyl2GVbNPPIqQQcxDfMjXNEdvNrC0/jZdbPVynFDv6nr//ZHikYuxO6v45gj/ZmvjQhp9WSLWSS9ATwx7R/XTe3er+thN+7n0EdcHPMs9Ju58nF+choPIpBWn1EzFLBunQK5Eh5TqJw0+xmXunyqU0JNj9fPqaDpdKkIDZT/THkH5WhlQruWSL4YM4nJ/VOwmo1c0Mob9nigH9rAUJwJuDaH7WhlRLuabXn8Tws34nAXUnF1Y/Pb42G0GCw89Hf342hgRsfo6Tk6upj8N7gbT6qfXnZHCRND2+n07i8LMnGv8We4OEcH56hQSC+Okd8sXPfBr46b+T7PyET8Wz1fMzCCSAeriRwI9MsaafwSABOOxPgN+56rjqWDEo5M5P03u80lgxbCdx+FlhrBgcEix+VhgrRoEEbH6WGntHg2ziZ7xOUt/PqJBQz8/okMCTn4XfDrufrUCqpVyz1UU/BVNgmC+300lArW4VQnzJFDVHwGl+bWuQAOr+egr83LeuVUgADk1jm2xah7T6+SqtQ4LFz1fpBCS4/ewMJGD1s1OQZfzsbP4DEMUHtrKqcpkAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_7",
+      "w": 33,
+      "h": 53,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAA1CAYAAADPo4LiAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAA3ElEQVRYhe3YsQ3CMBSE4TOkoEwJNLABbIDZB0XZAEZACgNkE8wGYQM6UkJHETAND5DilHZc3F+meZ90jRWlJ9kesEv01WCYJx/AqjfEs0kHvR3/KwpE4vh2hrV5MMEoqVyIm6kPJhgCkcxBhESERIREhESERIREhESE5HpZzfU023m//LIXUxdlF2IGa7feEQonACUQyRxRINpzKNxhUfk/rb432giLylwL7R/xK4o5iJCIkIiQiJCIkIiQiJCIkKJAuJ78qR5vdDBBx2/lBZQ6BkM8mnUUcxARVW9hKycBPmkhTAAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_8",
+      "w": 41,
+      "h": 53,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAA1CAYAAADcdMIWAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAC90lEQVRogc2ZQXLaQBBFf0tU7B0swV6YG6AbeHIC+wbWAVCKI/gIqjJ74xsoJ/BwgsANlIUdlngXV0XqLIQrMNMSdjAz6hX0NPBqRtP9uyE1+JYCHOFoRguAcwSh1k/p4r++QQ0SDeDyc8Hqfg0vAGegTvoR4OCYTJYxumC6QVn8UIMkU/3J8D0fcwu5a1cIioXqJ/G+wI7gW4J5cjBCgB4QRGCOAEQALqwYRheEe9VPoFd3s49ArvVqqg+GrCx7e6H6Y4UAMZhurKg9oM6OW6+mWj9PYzB/rS6QYYT7umfU+TOpV1ONL+EQwE9rkYqZ9BkvF0fn6RpBeC0sXUq76e1266d0AeIHayEoY8vlAqjWqJNaPmZlurxCbqqO+Wxa1c/vTlaW7wvwD0mcmy7z8viHRJDbvj/DnQg3IA3Ggkw87ewoJP+QQM906Dxdb79vA6R5m61K5BVSnY3tqkOsTZffnWSSJGFmOrxBbnbROmr9PG0HpDqfRADNrAXGrRTvHFKdja/BhQajayzN60SvpMyPYqqfxCDEYLEzXeJElG4AZMie6o/VwVREEYh6G1XT1DIvcRIqMzdumwQ5AtHjoYwAAOZ9Ed9xEsZNgIDD4zZsDubb9zZ8biEJLyj5+qPdqPsJBtGjGiSZGk6sml1n0k7O9a87dSiPOp9EKIoIhBj2xbnCa6HVcNJ4YZogP8U2rcECwKwaDFBm5MYRXguNarrRaE6OW6+mGmUYCUOBkRoke0c6DicYaQ5wLCy1BxIANuJhabgv9k3W3AsMht1rE2pLIuAD8jTMhGfzqmmg6n5gladrgC3NCCpqd9OP6C0xE7xxXbifqVpVFs2Ga1SJYdv89TgkKPPSnqgBPiHLYGb5SMyjHueTqzQHMN9xMrpSm+u5pRUvUMsgpZzJdGPKOL9D1Lqc+Xs3Z/qfBUk5k3ZFh3fI2py5VSa9QwKQc+bWvxDtgJRyJv/Lma2AFHMmcPE2pGgFJAA5ZwaV6GgPpKgzqVEMt8r+AiXtBQj31y0iAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_9",
+      "w": 50,
+      "h": 53,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA1CAYAAAADOrgJAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAD3klEQVRoge2ZMVIbMRSGf609QJEJlCaNlxMkVVKyOQG+QVymgMRH8BF2xsykNTcwNxBdJhXcYF0EXNozFMDEVgqvzUp6WktarZ0iX8eztOj3e/tbT2LJ8bcUEB9QRIg+n1xy/IMkxxdcCU35w6DThBC3YPgufRShC0CdsHOS1kUXwKkUZOIKACI+GQzBMJM+FOxL0urFW1qfPQw9LbZo9gEgykek2oBo0a1xSc4krfMEwHslfMMnaQashCyioT5V6Op3CWP6ephYJ6ABANnjz2n89uMJwIov/UH85tM4e/x1W/8qy0lavRhM/FDCY/5w+XX1R7QOLzDUnsDQr2ltbrAFVR3S67AWktvtnTK4ndfmzkji3hGY6EpBhhn2G8NiKJIGCOgvPVWb2+Rp3oHAoRwUI56l02JEEsIngyGAsfKos51aMVXeueUWibRBjA31GFmjtZOXdVsJX68st4guZC8iykt0k7h3FGZ5DlBlLYS+PhBCeJZOVz/7r5NxiKd5J9T6bMjL+UwJj017QD0jAMCaRFa2bMVUOQvzGkgh/Hd6C+BGCW/Nio2We9AYmebQGQEAQf1AbsmKKcsVbKhabhGjkJ1aMVXGgjChAuaMADuxYtJymbiiLLdIuZC9KNV6lbqtmCpfah+oUCpkWZNCfsFqtGKD5d7ZtN3lGQHI7UBtVkxbbum7sZ5qMyhv+OVeWYjPIQ8okrh3hJd5JrkVw4zfD6zKeHNGAKkTe40FtmJyl0u04AashPD7yxHqtmJyl0u14DR2GVlCZCWMFSfvzjvwsNwi9kL2G/qxUSgrFn6WW8RaiNGKn+ddl3+okpfnqRK+cTUSl9KirRjEoZnTCv7oz6T2eZse4zI4r9lrJdzOa9yZZVkyde443+c54ZYRgO7QqBq34Xne1SyX2t9Z4Cwkr13Vik89rVj/AqhW2wL3jAB0p0bVeglGyy3pOcrwE3LQGGlWDNZxsmKqHKkW2xIvITxLpxBKLTtYsdFyly22F34ZAUwdm91LH8hypUf6TvS14pCWW8Q/I4CfFVOWS+3jHKkkxHCCv8mKZaHEyboP1TIC0B2cwYpJyyVO1n2oLIS8TDVZMbnLbfarrgEIkREAWidHWLF5l2vfc5QRRgjdycnfPlVuVAvtSRAhfJJm2gl+wYqNlrtsoYMQqLRAd3Srd+Jl0avDcotYHQfZQh8bNU7A5hxFt2KYYa8Rh3CrFeEyAhhO8BURwMaTdR+CCjGc4Kt3gBtP1n0ImxHApsMjLzOrEl7Ipg7PcJlZleBCyMvUV4yXmVUJnxHA3OmVXGZWpRYh5GXqhsvM/+T8BQcOmzV9DCNvAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_10",
+      "w": 33,
+      "h": 53,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAA1CAYAAADPo4LiAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAA3ElEQVRYhe3YsQ3CMBSE4TOkoEwJNLABbIDZB0XZAEZACgNkE8wGYQM6UkJHETAND5DilHZc3F+meZ90jRWlJ9kesEv01WCYJx/AqjfEs0kHvR3/KwpE4vh2hrV5MMEoqVyIm6kPJhgCkcxBhESERIREhESERIREhESE5HpZzfU023m//LIXUxdlF2IGa7feEQonACUQyRxRINpzKNxhUfk/rb432giLylwL7R/xK4o5iJCIkIiQiJCIkIiQiJCIkKJAuJ78qR5vdDBBx2/lBZQ6BkM8mnUUcxARVW9hKycBPmkhTAAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "comp_0",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 0,
+          "nm": "logo",
+          "refId": "comp_1",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": { "a": 0, "k": [960, 540, 0], "ix": 2 },
+            "a": { "a": 0, "k": [960, 540, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "w": 1920,
+          "h": 1080,
+          "ip": -7,
+          "op": 76,
+          "st": -7,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 0,
+          "nm": "kuda",
+          "refId": "comp_2",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": { "a": 0, "k": [961, 540, 0], "ix": 2 },
+            "a": { "a": 0, "k": [960, 540, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "hasMask": true,
+          "masksProperties": [
+            {
+              "inv": false,
+              "mode": "a",
+              "pt": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [0, 0],
+                    [0, 0],
+                    [0, 0],
+                    [0, 0]
+                  ],
+                  "o": [
+                    [0, 0],
+                    [0, 0],
+                    [0, 0],
+                    [0, 0]
+                  ],
+                  "v": [
+                    [1408.547, 388.716],
+                    [1041.179, 388.716],
+                    [1041.179, 529.527],
+                    [1408.547, 529.527]
+                  ],
+                  "c": true
+                },
+                "ix": 1
+              },
+              "o": { "a": 0, "k": 100, "ix": 3 },
+              "x": { "a": 0, "k": 0, "ix": 4 },
+              "nm": "Mask 1"
+            }
+          ],
+          "w": 1920,
+          "h": 1080,
+          "ip": 18,
+          "op": 76,
+          "st": 18,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 0,
+          "nm": "Nerve",
+          "refId": "comp_3",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": { "a": 0, "k": [960, 540, 0], "ix": 2 },
+            "a": { "a": 0, "k": [960, 540, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "hasMask": true,
+          "masksProperties": [
+            {
+              "inv": false,
+              "mode": "a",
+              "pt": {
+                "a": 0,
+                "k": {
+                  "i": [
+                    [0, 0],
+                    [0, 0],
+                    [0, 0],
+                    [0, 0]
+                  ],
+                  "o": [
+                    [0, 0],
+                    [0, 0],
+                    [0, 0],
+                    [0, 0]
+                  ],
+                  "v": [
+                    [1403.186, 504.28],
+                    [1042.179, 504.28],
+                    [1042.179, 629.963],
+                    [1403.186, 629.963]
+                  ],
+                  "c": true
+                },
+                "ix": 1
+              },
+              "o": { "a": 0, "k": 100, "ix": 3 },
+              "x": { "a": 0, "k": 0, "ix": 4 },
+              "nm": "Mask 1"
+            }
+          ],
+          "w": 1920,
+          "h": 1080,
+          "ip": 45,
+          "op": 76,
+          "st": 45,
+          "bm": 0
+        }
+      ]
+    },
+    {
+      "id": "comp_1",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 4,
+          "nm": "Shape Layer 1",
+          "td": 1,
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": { "a": 0, "k": [960, 540, 0], "ix": 2 },
+            "a": { "a": 0, "k": [0, 0, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "shapes": [
+            {
+              "ty": "gr",
+              "it": [
+                {
+                  "ind": 0,
+                  "ty": "sh",
+                  "ix": 1,
+                  "ks": {
+                    "a": 0,
+                    "k": {
+                      "i": [
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "o": [
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "v": [
+                        [-10.25, -110.75],
+                        [-7, -110.5],
+                        [-6.25, -21.5],
+                        [-10, -21.25]
+                      ],
+                      "c": true
+                    },
+                    "ix": 2
+                  },
+                  "nm": "Path 1",
+                  "mn": "ADBE Vector Shape - Group",
+                  "hd": false
+                },
+                {
+                  "ty": "tm",
+                  "s": { "a": 0, "k": 0, "ix": 1 },
+                  "e": {
+                    "a": 1,
+                    "k": [
+                      {
+                        "i": { "x": [0], "y": [1.001] },
+                        "o": { "x": [0.134], "y": [0] },
+                        "t": 8,
+                        "s": [0]
+                      },
+                      { "t": 31, "s": [100] }
+                    ],
+                    "ix": 2
+                  },
+                  "o": { "a": 0, "k": 0, "ix": 3 },
+                  "m": 2,
+                  "ix": 2,
+                  "nm": "Trim Paths 1",
+                  "mn": "ADBE Vector Filter - Trim",
+                  "hd": false
+                },
+                {
+                  "ty": "fl",
+                  "c": {
+                    "a": 0,
+                    "k": [0.250980392157, 0.098039215686, 0.427450980392, 1],
+                    "ix": 4
+                  },
+                  "o": { "a": 0, "k": 100, "ix": 5 },
+                  "r": 1,
+                  "bm": 0,
+                  "nm": "Fill 1",
+                  "mn": "ADBE Vector Graphic - Fill",
+                  "hd": false
+                },
+                {
+                  "ty": "tr",
+                  "p": { "a": 0, "k": [0, 0], "ix": 2 },
+                  "a": { "a": 0, "k": [0, 0], "ix": 1 },
+                  "s": { "a": 0, "k": [100, 100], "ix": 3 },
+                  "r": { "a": 0, "k": 0, "ix": 6 },
+                  "o": { "a": 0, "k": 100, "ix": 7 },
+                  "sk": { "a": 0, "k": 0, "ix": 4 },
+                  "sa": { "a": 0, "k": 0, "ix": 5 },
+                  "nm": "Transform"
+                }
+              ],
+              "nm": "Shape 5",
+              "np": 4,
+              "cix": 2,
+              "bm": 0,
+              "ix": 1,
+              "mn": "ADBE Vector Group",
+              "hd": false
+            },
+            {
+              "ty": "gr",
+              "it": [
+                {
+                  "ind": 0,
+                  "ty": "sh",
+                  "ix": 1,
+                  "ks": {
+                    "a": 0,
+                    "k": {
+                      "i": [
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "o": [
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "v": [
+                        [1.25, -111],
+                        [9, -110.75],
+                        [0.25, -66],
+                        [9.25, -22],
+                        [1.5, -21.5],
+                        [-7.25, -66.25]
+                      ],
+                      "c": true
+                    },
+                    "ix": 2
+                  },
+                  "nm": "Path 1",
+                  "mn": "ADBE Vector Shape - Group",
+                  "hd": false
+                },
+                {
+                  "ty": "tm",
+                  "s": { "a": 0, "k": 0, "ix": 1 },
+                  "e": {
+                    "a": 1,
+                    "k": [
+                      {
+                        "i": { "x": [0], "y": [0.998] },
+                        "o": { "x": [0.13], "y": [0] },
+                        "t": 10,
+                        "s": [0]
+                      },
+                      { "t": 31, "s": [99] }
+                    ],
+                    "ix": 2
+                  },
+                  "o": { "a": 0, "k": 255, "ix": 3 },
+                  "m": 2,
+                  "ix": 2,
+                  "nm": "Trim Paths 1",
+                  "mn": "ADBE Vector Filter - Trim",
+                  "hd": false
+                },
+                {
+                  "ty": "fl",
+                  "c": {
+                    "a": 0,
+                    "k": [0.250980392157, 0.098039215686, 0.427450980392, 1],
+                    "ix": 4
+                  },
+                  "o": { "a": 0, "k": 100, "ix": 5 },
+                  "r": 1,
+                  "bm": 0,
+                  "nm": "Fill 1",
+                  "mn": "ADBE Vector Graphic - Fill",
+                  "hd": false
+                },
+                {
+                  "ty": "tr",
+                  "p": { "a": 0, "k": [0, 0], "ix": 2 },
+                  "a": { "a": 0, "k": [0, 0], "ix": 1 },
+                  "s": { "a": 0, "k": [100, 100], "ix": 3 },
+                  "r": { "a": 0, "k": 0, "ix": 6 },
+                  "o": { "a": 0, "k": 100, "ix": 7 },
+                  "sk": { "a": 0, "k": 0, "ix": 4 },
+                  "sa": { "a": 0, "k": 0, "ix": 5 },
+                  "nm": "Transform"
+                }
+              ],
+              "nm": "Shape 3",
+              "np": 4,
+              "cix": 2,
+              "bm": 0,
+              "ix": 2,
+              "mn": "ADBE Vector Group",
+              "hd": false
+            },
+            {
+              "ty": "gr",
+              "it": [
+                {
+                  "ind": 0,
+                  "ty": "sh",
+                  "ix": 1,
+                  "ks": {
+                    "a": 0,
+                    "k": {
+                      "i": [
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "o": [
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "v": [
+                        [21.25, -111.25],
+                        [34.25, -110.5],
+                        [14, -65],
+                        [33.75, -22],
+                        [20.25, -22.25],
+                        [0.5, -66.25]
+                      ],
+                      "c": true
+                    },
+                    "ix": 2
+                  },
+                  "nm": "Path 1",
+                  "mn": "ADBE Vector Shape - Group",
+                  "hd": false
+                },
+                {
+                  "ty": "tm",
+                  "s": { "a": 0, "k": 0, "ix": 1 },
+                  "e": {
+                    "a": 1,
+                    "k": [
+                      {
+                        "i": { "x": [0], "y": [1.007] },
+                        "o": { "x": [0.125], "y": [0] },
+                        "t": 12,
+                        "s": [0]
+                      },
+                      { "t": 31, "s": [99] }
+                    ],
+                    "ix": 2
+                  },
+                  "o": { "a": 0, "k": 255, "ix": 3 },
+                  "m": 1,
+                  "ix": 2,
+                  "nm": "Trim Paths 1",
+                  "mn": "ADBE Vector Filter - Trim",
+                  "hd": false
+                },
+                {
+                  "ty": "st",
+                  "c": {
+                    "a": 0,
+                    "k": [0.250980392157, 0.098039223166, 0.427451010311, 1],
+                    "ix": 3
+                  },
+                  "o": { "a": 0, "k": 100, "ix": 4 },
+                  "w": { "a": 0, "k": 2, "ix": 5 },
+                  "lc": 1,
+                  "lj": 1,
+                  "ml": 4,
+                  "bm": 0,
+                  "nm": "Stroke 1",
+                  "mn": "ADBE Vector Graphic - Stroke",
+                  "hd": false
+                },
+                {
+                  "ty": "fl",
+                  "c": {
+                    "a": 0,
+                    "k": [0.250980392157, 0.098039215686, 0.427450980392, 1],
+                    "ix": 4
+                  },
+                  "o": { "a": 0, "k": 100, "ix": 5 },
+                  "r": 1,
+                  "bm": 0,
+                  "nm": "Fill 1",
+                  "mn": "ADBE Vector Graphic - Fill",
+                  "hd": false
+                },
+                {
+                  "ty": "tr",
+                  "p": { "a": 0, "k": [0, 0], "ix": 2 },
+                  "a": { "a": 0, "k": [0, 0], "ix": 1 },
+                  "s": { "a": 0, "k": [100, 100], "ix": 3 },
+                  "r": { "a": 0, "k": 0, "ix": 6 },
+                  "o": { "a": 0, "k": 100, "ix": 7 },
+                  "sk": { "a": 0, "k": 0, "ix": 4 },
+                  "sa": { "a": 0, "k": 0, "ix": 5 },
+                  "nm": "Transform"
+                }
+              ],
+              "nm": "Shape 12",
+              "np": 4,
+              "cix": 2,
+              "bm": 0,
+              "ix": 3,
+              "mn": "ADBE Vector Group",
+              "hd": false
+            },
+            {
+              "ty": "gr",
+              "it": [
+                {
+                  "ind": 0,
+                  "ty": "sh",
+                  "ix": 1,
+                  "ks": {
+                    "a": 0,
+                    "k": {
+                      "i": [
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "o": [
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0],
+                        [0, 0]
+                      ],
+                      "v": [
+                        [50.75, -111],
+                        [71, -110.75],
+                        [35, -64.25],
+                        [71.25, -21.5],
+                        [50.5, -21.5],
+                        [14.75, -65.25]
+                      ],
+                      "c": true
+                    },
+                    "ix": 2
+                  },
+                  "nm": "Path 1",
+                  "mn": "ADBE Vector Shape - Group",
+                  "hd": false
+                },
+                {
+                  "ty": "tm",
+                  "s": { "a": 0, "k": 0, "ix": 1 },
+                  "e": {
+                    "a": 1,
+                    "k": [
+                      {
+                        "i": { "x": [0], "y": [1] },
+                        "o": { "x": [0.128], "y": [0] },
+                        "t": 14,
+                        "s": [0]
+                      },
+                      { "t": 31, "s": [99] }
+                    ],
+                    "ix": 2
+                  },
+                  "o": { "a": 0, "k": 264, "ix": 3 },
+                  "m": 1,
+                  "ix": 2,
+                  "nm": "Trim Paths 1",
+                  "mn": "ADBE Vector Filter - Trim",
+                  "hd": false
+                },
+                {
+                  "ty": "st",
+                  "c": {
+                    "a": 0,
+                    "k": [0.250980392157, 0.098039223166, 0.427451010311, 1],
+                    "ix": 3
+                  },
+                  "o": { "a": 0, "k": 100, "ix": 4 },
+                  "w": { "a": 0, "k": 1, "ix": 5 },
+                  "lc": 1,
+                  "lj": 1,
+                  "ml": 4,
+                  "bm": 0,
+                  "nm": "Stroke 1",
+                  "mn": "ADBE Vector Graphic - Stroke",
+                  "hd": false
+                },
+                {
+                  "ty": "fl",
+                  "c": {
+                    "a": 0,
+                    "k": [0.250980392157, 0.098039215686, 0.427450980392, 1],
+                    "ix": 4
+                  },
+                  "o": { "a": 0, "k": 100, "ix": 5 },
+                  "r": 2,
+                  "bm": 0,
+                  "nm": "Fill 1",
+                  "mn": "ADBE Vector Graphic - Fill",
+                  "hd": false
+                },
+                {
+                  "ty": "tr",
+                  "p": { "a": 0, "k": [0, 0], "ix": 2 },
+                  "a": { "a": 0, "k": [0, 0], "ix": 1 },
+                  "s": { "a": 0, "k": [100, 100], "ix": 3 },
+                  "r": { "a": 0, "k": 0, "ix": 6 },
+                  "o": { "a": 0, "k": 100, "ix": 7 },
+                  "sk": { "a": 0, "k": 0, "ix": 4 },
+                  "sa": { "a": 0, "k": 0, "ix": 5 },
+                  "nm": "Transform"
+                }
+              ],
+              "nm": "Shape 13",
+              "np": 4,
+              "cix": 2,
+              "bm": 0,
+              "ix": 4,
+              "mn": "ADBE Vector Group",
+              "hd": false
+            }
+          ],
+          "ip": 0,
+          "op": 300,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 2,
+          "nm": "Logo 2",
+          "tt": 1,
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.026, "y": 1 },
+                  "o": { "x": 0.511, "y": 0 },
+                  "t": 0,
+                  "s": [1374.607, 473.78, 0],
+                  "to": [-64, 0, 0],
+                  "ti": [64, 0, 0]
+                },
+                { "t": 45, "s": [990.607, 473.78, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [41.135, 45.049, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 300,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 2,
+          "nm": "Logo",
+          "refId": "image_0",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": [0.667], "y": [1] },
+                  "o": { "x": [0.333], "y": [0] },
+                  "t": 28,
+                  "s": [0]
+                },
+                { "t": 32, "s": [0] }
+              ],
+              "ix": 11
+            },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": { "a": 0, "k": [1152.734, 473.78, 0], "ix": 2 },
+            "a": { "a": 0, "k": [41.135, 45.049, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 300,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    },
+    {
+      "id": "comp_2",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "k",
+          "refId": "image_1",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.294, "y": 1 },
+                  "o": { "x": 0.167, "y": 0 },
+                  "t": 0,
+                  "s": [866.156, 471.703, 0],
+                  "to": [36.167, 0, 0],
+                  "ti": [-36.167, 0, 0]
+                },
+                { "t": 25, "s": [1083.156, 471.703, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [32.809, 45.014, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 95,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 2,
+          "nm": "u",
+          "refId": "image_2",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.309, "y": 1 },
+                  "o": { "x": 0.167, "y": 0 },
+                  "t": 1,
+                  "s": [931.735, 485.621, 0],
+                  "to": [36.167, 0, 0],
+                  "ti": [-36.167, 0, 0]
+                },
+                { "t": 25, "s": [1148.735, 485.621, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [29.499, 31.171, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 95,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 2,
+          "nm": "d",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.327, "y": 1 },
+                  "o": { "x": 0.167, "y": 0 },
+                  "t": 2,
+                  "s": [998.227, 471.738, 0],
+                  "to": [36.167, 0, 0],
+                  "ti": [-36.167, 0, 0]
+                },
+                { "t": 25, "s": [1215.227, 471.738, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [32.31, 45.049, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 95,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 4,
+          "ty": 2,
+          "nm": "a",
+          "refId": "image_4",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.346, "y": 1 },
+                  "o": { "x": 0.167, "y": 0 },
+                  "t": 3,
+                  "s": [1067.559, 484.802, 0],
+                  "to": [36.167, 0, 0],
+                  "ti": [-36.167, 0, 0]
+                },
+                { "t": 25, "s": [1284.559, 484.802, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [32.311, 31.991, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 95,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 5,
+          "ty": 2,
+          "nm": ".",
+          "refId": "image_5",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0.367, "y": 1 },
+                  "o": { "x": 0.167, "y": 0 },
+                  "t": 4,
+                  "s": [1114.847, 505.577, 0],
+                  "to": [36.167, 0, 0],
+                  "ti": [-36.167, 0, 0]
+                },
+                { "t": 25, "s": [1331.847, 505.577, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [10.214, 10.213, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 95,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    },
+    {
+      "id": "comp_3",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "N",
+          "refId": "image_6",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0, "y": 1 },
+                  "o": { "x": 0.333, "y": 0 },
+                  "t": 0,
+                  "s": [1073.118, 478.189, 0],
+                  "to": [0, 15.302, 0],
+                  "ti": [0, -15.302, 0]
+                },
+                { "t": 33, "s": [1073.118, 570, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [20.443, 26.017, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 95,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 2,
+          "nm": "e",
+          "refId": "image_7",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0, "y": 1 },
+                  "o": { "x": 0.333, "y": 0 },
+                  "t": 3,
+                  "s": [1137.006, 478.189, 0],
+                  "to": [0, 15.302, 0],
+                  "ti": [0, -15.302, 0]
+                },
+                { "t": 33, "s": [1137.006, 570, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [16.136, 26.017, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 95,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 2,
+          "nm": "r",
+          "refId": "image_8",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0, "y": 1 },
+                  "o": { "x": 0.333, "y": 0 },
+                  "t": 6,
+                  "s": [1197.764, 478.189, 0],
+                  "to": [0, 15.302, 0],
+                  "ti": [0, -15.302, 0]
+                },
+                { "t": 33, "s": [1197.764, 570, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [20.082, 26.016, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 95,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 4,
+          "ty": 2,
+          "nm": "v",
+          "refId": "image_9",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0, "y": 1 },
+                  "o": { "x": 0.333, "y": 0 },
+                  "t": 9,
+                  "s": [1259.734, 478.189, 0],
+                  "to": [0, 15.302, 0],
+                  "ti": [0, -15.302, 0]
+                },
+                { "t": 33, "s": [1259.734, 570, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [24.605, 26.017, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 95,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 5,
+          "ty": 2,
+          "nm": "e",
+          "refId": "image_10",
+          "sr": 1,
+          "ks": {
+            "o": { "a": 0, "k": 100, "ix": 11 },
+            "r": { "a": 0, "k": 0, "ix": 10 },
+            "p": {
+              "a": 1,
+              "k": [
+                {
+                  "i": { "x": 0, "y": 1 },
+                  "o": { "x": 0.333, "y": 0 },
+                  "t": 12,
+                  "s": [1321.578, 478.189, 0],
+                  "to": [0, 15.302, 0],
+                  "ti": [0, -15.302, 0]
+                },
+                { "t": 33, "s": [1321.578, 570, 0] }
+              ],
+              "ix": 2
+            },
+            "a": { "a": 0, "k": [16.138, 26.017, 0], "ix": 1 },
+            "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 95,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 0,
+      "nm": "Nerve",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": { "a": 0, "k": 100, "ix": 11 },
+        "r": { "a": 0, "k": 0, "ix": 10 },
+        "p": { "a": 0, "k": [108, 228, 0], "ix": 2 },
+        "a": { "a": 0, "k": [960, 540, 0], "ix": 1 },
+        "s": { "a": 0, "k": [100, 100, 100], "ix": 6 }
+      },
+      "ao": 0,
+      "w": 1920,
+      "h": 1080,
+      "ip": 0,
+      "op": 74,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}
