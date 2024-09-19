@@ -3,14 +3,7 @@ import CssDefaults from './cssConfig'
 //mobile first approach...
 // cutomize this to suit your needs...
 const screenSizes = {
-  // '2xl': 1560,
-  // xl: 1408, //full hd
-  // lg: 1215, //large desktop
-  // md: 1023, //desktop
-  // tab: 768, //tablets
-  // sm: 0, // phones
-  // all: 0,
-
+  
   '2xl': 5000, //extra hd screens
   xl: 2090, //full hd
   lg: 1800, //large desktop
@@ -147,7 +140,7 @@ export const mediaPropsRebaser = (key, values, manager) => {
 
 
 /*more utils*/
-/*css extracts for academy*/
+/*css extracts */
 export const getFloatingWidthValue=  (span, withFloat =false) => {
     const floatCss =``;
     if (!span) return
