@@ -1,16 +1,15 @@
 import styled, { css } from 'styled-components'
 import CssDefaults from './cssConfig'
-//mobile first approach...
-// cutomize this to suit your needs...
+
 const screenSizes = {
   
-  '2xl': 5000, //extra hd screens
-  xl: 2090, //full hd
-  lg: 1800, //large desktop
-  md: 1280, //desktop
+  '2xl': 5000, 
+  xl: 2090, 
+  lg: 1800, 
+  md: 1280, 
   tabPortrait: 1024, //tablets
   tab: 1000,
-  sm: 926, // phones
+  sm: 926, 
   xs: 480,
   all: 0,
 }

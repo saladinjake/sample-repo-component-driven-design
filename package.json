@@ -11,7 +11,7 @@
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=chpt_a1a7e125a5e4fa4",
+   
     "storybook": "start-storybook -p 6006 -s public",
      "build-storybook": "build-storybook -s public",
      "serve-storybook": "serve storybook-static"
