@@ -53,10 +53,10 @@ MVP OPEN SOURCE CODE  BASE FOR ED TECH.
 ## 🚀 Installation
 
 ```bash
-git clone this repo
-cd your-repo-name
-npm install  # or yarn
-npm run storybook
+In your project root folder run 
+
+npm install muitiny # or yarn
+
 
 
 ### Enjoy the demo
