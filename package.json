@@ -1,5 +1,5 @@
 {
-  "name": "muitiny-component-library-dev",
+  "name": "muitiny",
   "version": "0.0.1",
   "description": "A styled component package aiming to buid reusable components in day to day web applications",
   "main": "build/index.js",
