@@ -1,0 +1,29 @@
+node_modules/@types/react-router-dom/index.d.ts(13,10): error TS2724: '"react-router"' has no exported member named 'match'. Did you mean 'UIMatch'?
+node_modules/@types/react-router-dom/index.d.ts(19,5): error TS2305: Module '"react-router"' has no exported member 'PromptProps'.
+node_modules/@types/react-router-dom/index.d.ts(20,5): error TS2305: Module '"react-router"' has no exported member 'Prompt'.
+node_modules/@types/react-router-dom/index.d.ts(23,5): error TS2305: Module '"react-router"' has no exported member 'RedirectProps'.
+node_modules/@types/react-router-dom/index.d.ts(24,5): error TS2724: '"react-router"' has no exported member named 'Redirect'. Did you mean 'redirect'?
+node_modules/@types/react-router-dom/index.d.ts(25,5): error TS2305: Module '"react-router"' has no exported member 'RouteChildrenProps'.
+node_modules/@types/react-router-dom/index.d.ts(26,5): error TS2305: Module '"react-router"' has no exported member 'RouteComponentProps'.
+node_modules/@types/react-router-dom/index.d.ts(31,5): error TS2305: Module '"react-router"' has no exported member 'StaticRouterProps'.
+node_modules/@types/react-router-dom/index.d.ts(32,5): error TS2305: Module '"react-router"' has no exported member 'StaticRouter'.
+node_modules/@types/react-router-dom/index.d.ts(33,5): error TS2305: Module '"react-router"' has no exported member 'SwitchProps'.
+node_modules/@types/react-router-dom/index.d.ts(34,5): error TS2305: Module '"react-router"' has no exported member 'Switch'.
+node_modules/@types/react-router-dom/index.d.ts(35,5): error TS2724: '"react-router"' has no exported member named 'match'. Did you mean 'UIMatch'?
+node_modules/@types/react-router-dom/index.d.ts(37,5): error TS2305: Module '"react-router"' has no exported member 'withRouter'.
+node_modules/@types/react-router-dom/index.d.ts(38,5): error TS2305: Module '"react-router"' has no exported member 'RouterChildContext'.
+node_modules/@types/react-router-dom/index.d.ts(39,5): error TS2305: Module '"react-router"' has no exported member 'useHistory'.
+node_modules/@types/react-router-dom/index.d.ts(42,5): error TS2724: '"react-router"' has no exported member named 'useRouteMatch'. Did you mean 'RouteMatch'?
+src/components/Button/Button.tsx(19,6): error TS2769: No overload matches this call.
+  Overload 2 of 2, '(props: StyledComponentPropsWithAs<"button", any, IBaseProps & IButtonProps, never, "button", "button">): ReactElement<...>', gave the following error.
+    Type '{ children: Element; m?: "auto" | "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "11" | "12" | "14" | "16" | "20" | "2.5" | "24" | "28" | "32" | "36" | "40" | "44" | ... 8 more ... | ("auto" | ... 30 more ... | "96")[]; ... 585 more ...; fullWidth: boolean; }' is not assignable to type '{ filter?: any; fill?: any; animationName?: any; type?: "button" | "reset" | "submit"; all?: any; offset?: any; key?: Key; id?: string; height?: string | string[]; width?: string; left?: any; top?: any; name?: string; ... 860 more ...; iconPosition?: "left" | "right"; }'.
+      Types of property 'color' are incompatible.
+        Type 'string | ("kPurple500" | "kPurple400" | "kPurple300" | "kPurple200" | "kPurple100" | "kGreen500" | "kGreen400" | "kGreen300" | "kGreen200" | "kGreen100" | "kBlue500" | "kBlue400" | ... 32 more ... | "kudaLightBlue")[]' is not assignable to type 'string | (string & ("kPurple500" | "kPurple400" | "kPurple300" | "kPurple200" | "kPurple100" | "kGreen500" | "kGreen400" | "kGreen300" | "kGreen200" | "kGreen100" | "kBlue500" | ... 33 more ... | "kudaLightBlue")[])'.
+          Type '("kPurple500" | "kPurple400" | "kPurple300" | "kPurple200" | "kPurple100" | "kGreen500" | "kGreen400" | "kGreen300" | "kGreen200" | "kGreen100" | "kBlue500" | "kBlue400" | "kBlue300" | ... 31 more ... | "kudaLightBlue")[]' is not assignable to type 'string | (string & ("kPurple500" | "kPurple400" | "kPurple300" | "kPurple200" | "kPurple100" | "kGreen500" | "kGreen400" | "kGreen300" | "kGreen200" | "kGreen100" | "kBlue500" | ... 33 more ... | "kudaLightBlue")[])'.
+            Type '("kPurple500" | "kPurple400" | "kPurple300" | "kPurple200" | "kPurple100" | "kGreen500" | "kGreen400" | "kGreen300" | "kGreen200" | "kGreen100" | "kBlue500" | "kBlue400" | "kBlue300" | ... 31 more ... | "kudaLightBlue")[]' is not assignable to type 'string & ("kPurple500" | "kPurple400" | "kPurple300" | "kPurple200" | "kPurple100" | "kGreen500" | "kGreen400" | "kGreen300" | "kGreen200" | "kGreen100" | "kBlue500" | "kBlue400" | ... 32 more ... | "kudaLightBlue")[]'.
+              Type '("kPurple500" | "kPurple400" | "kPurple300" | "kPurple200" | "kPurple100" | "kGreen500" | "kGreen400" | "kGreen300" | "kGreen200" | "kGreen100" | "kBlue500" | "kBlue400" | "kBlue300" | ... 31 more ... | "kudaLightBlue")[]' is not assignable to type 'string'.
+src/components/Select/Select.types.ts(16,21): error TS2304: Cannot find name 'SyntheticEvent'.
+src/components/Select/Select.types.ts(17,20): error TS2304: Cannot find name 'SyntheticEvent'.
+src/components/Toast/Toast.styles.tsx(2,24): error TS2307: Cannot find module '../animation.style' or its corresponding type declarations.
+src/index.ts(9,10): error TS2305: Module '"./components/Container"' has no exported member 'default'.
+src/index.ts(10,41): error TS2307: Cannot find module './components/FilterSearch' or its corresponding type declarations.

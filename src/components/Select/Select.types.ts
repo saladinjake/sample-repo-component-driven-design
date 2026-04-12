@@ -1,3 +1,4 @@
+import React from 'react';
 export type Option = {
   name: string;
   value?: any;
@@ -13,8 +14,8 @@ export type SelectProps = {
   options: any;
   onChange: (value) => void;
   onChangeRaw?: (value) => void;
-  onFocus? :(event: SyntheticEvent) => void;
-  onBlur?: (event: SyntheticEvent ) => void;
+  onFocus? :(event: React.SyntheticEvent) => void;
+  onBlur?: (event: React.SyntheticEvent ) => void;
   
   name?: string;
   disabled?: boolean;
