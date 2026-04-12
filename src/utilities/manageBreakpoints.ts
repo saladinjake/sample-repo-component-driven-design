@@ -24,12 +24,12 @@ const manageBreakpoints = (
 ) => {
   theme = Object.values(theme).length ? theme : libraryConfig
 
-  if (!value) return `${key}: ''`
+  if (!value) return ""
 
   const hasMediaProps = values => {
     if (values) {
       //values shold seemingly look this way display: {sm:{}, lg:{}, tabs:{}, md:{}}
-      const mediaFlags = ['xs','sm', 'tabs', "tabPortrait", 'md', 'lg', 'xl', '2xl', 'all']
+      const mediaFlags = ['xs','sm', 'tab', "tabPortrait", 'md', 'lg', 'xl', '2xl', 'all']
       const hasMediaSets = Object.keys(values).some(item =>
         mediaFlags.includes(item)
       )
@@ -49,7 +49,16 @@ const manageBreakpoints = (
     return responsiveQueriesFluxMapper(revolverQuerySet)
   }
 
-  return `${key}: ${manager && manager[value] ? manager[value] : value}`
+  let result = value;
+  if (manager) {
+    if (typeof manager === "function") {
+      result = manager(value);
+    } else if (manager[value]) {
+      result = manager[value];
+    }
+  }
+
+  return `${key}: ${result}`
 }
 
 export default manageBreakpoints

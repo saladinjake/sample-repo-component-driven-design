@@ -11,12 +11,16 @@ export interface GridProps {
   style?: Record<string, any>;
 }
 
-export interface IGridProps {
+import IBaseProps from "../Base/Base.types";
+
+export interface IGridProps extends IBaseProps {
   templateColumn?: string;
   templateRow?: string;
+  columns?: string | number | any;
   gap?: string;
   rowGap?: string;
   columnGap?: string;
+  children?: React.ReactNode;
 }
 
 export interface IGridItemProps {

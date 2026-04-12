@@ -24,7 +24,7 @@ export const SearchIcon = () => {
   );
 };
 
-const Input: React.FC<InputProps> = ({
+export const Input = ({
   label = "Label",
   error,
   message,
@@ -52,27 +52,29 @@ const Input: React.FC<InputProps> = ({
   tooltipText,
 
   ...props
-}) => {
+}: InputProps) => {
   const [currentValue, setValue] = useState(value);
 
   const { hitsBreakPoint } = useMediaQueryRequest({
     screenResolver: '(max-width: 480px)', //"(max-width: 768px)",
   })
 
-  const windowWidth = useMemo(() => window.innerWidth,[])
-  width = windowWidth <=480 && hitsBreakPoint ? "100%" : width
+  const windowWidth = useMemo(() => typeof window !== "undefined" ? window.innerWidth : 0, []);
+  const inputWidth = useMemo(() => {
+     return windowWidth <= 480 && hitsBreakPoint ? "100%" : width;
+  }, [windowWidth, hitsBreakPoint, width]);
 
- console.log(hitsBreakPoint, windowWidth)
   useEffect(() => {
     if (currentValue !== value) setValue(value);
   }, [value]);
 
   return (
     <StyledInput
-      width={width}
+      width={inputWidth}
       disabled={disabled}
       error={error}
       hasSearch={hasSearch}
+      {...props}
     >
       {label && (
         <Flex gap="10px">

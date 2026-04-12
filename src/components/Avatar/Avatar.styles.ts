@@ -2,19 +2,26 @@ import styled from "styled-components";
 import { IStyledAvatarProps } from "./Avatar.types";
 import libraryConfig from "../../libraryConfig";
 import Base from "../Base/Base"
-const { colors } = libraryConfig;
+const { colors, shadows, transitions } = libraryConfig;
 import "../../main.css";
 
 export const StyledAvatar = styled(Base)<IStyledAvatarProps>`
-  font-family: Mulish;
+  font-family: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: ${({ backgroundColor }) => backgroundColor || colors.kudaGrey};
-  color: ${({ color }) => color || colors.kudaBlack};
+  background: ${({ backgroundColor }) => backgroundColor || colors.kudaLighterGrey};
+  color: ${({ color }) => color || colors.kudaPurple};
   overflow: hidden;
+  box-shadow: ${shadows.sm};
+  transition: ${transitions.smooth};
   border-radius: ${(props) =>
-    props.shape === "square" ? "6px" : props.shape === "rounded" ? "50%" : ""};
+    props.shape === "square" ? "8px" : props.shape === "rounded" ? "50%" : ""};
+  
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: ${shadows.md};
+  }
   ${({ size }) => {
     switch (size) {
       case "sm":

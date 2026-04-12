@@ -59,6 +59,29 @@ export default {
     kudaLightPurple: '#8369A0',
     kudaInactivePurple: '#EFF1FF',
     kudaLightBlue: '#DBF8FF',
+
+    // Premium UI Colors
+    brandPrimary: 'linear-gradient(135deg, #40196D 0%, #61319E 100%)',
+    brandSecondary: 'linear-gradient(135deg, #1DCBEF 0%, #0BB5D9 100%)',
+    surfaceGlass: 'rgba(255, 255, 255, 0.7)',
+    borderGlass: 'rgba(255, 255, 255, 0.3)',
+    shadowSoft: '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+    shadowMedium: '0 12px 30px -4px rgba(0, 0, 0, 0.08)',
+    shadowHarsh: '0 20px 40px -4px rgba(0, 0, 0, 0.12)',
+  },
+
+  shadows: {
+    xs: '0 1px 2px rgba(0,0,0,0.05)',
+    sm: '0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06)',
+    md: '0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)',
+    lg: '0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04)',
+    xl: '0 25px 50px -12px rgba(0,0,0,0.25)',
+  },
+
+  transitions: {
+    springy: 'all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)',
+    smooth: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+    fast: 'all 0.15s ease-out',
   },
 
   fontSizes: {

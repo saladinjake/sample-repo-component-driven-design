@@ -35,8 +35,12 @@ export type ProfileCardProps = {
   handleLogout: () => void;
 };
 
-export type CardProps = {
+import IBaseProps from "../Base/Base.types";
+
+export type CardProps = Omit<IBaseProps, "color"> & {
   width?: string;
   height?: string;
-  children?: any;
+  children?: React.ReactNode;
+  isGlass?: boolean;
+  color?: string;
 };

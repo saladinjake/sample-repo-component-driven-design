@@ -2,9 +2,9 @@ import React from "react";
 import { StyledCard } from "./Card.styles";
 import { CardProps } from "./Card.types";
 
-const Card: React.FC<CardProps> = ({ children, width, height }) => {
+const Card: React.FC<CardProps> = ({ children, ...props }) => {
   return (
-    <StyledCard width={width} height={height}>
+    <StyledCard {...props}>
       {children}
     </StyledCard>
   );

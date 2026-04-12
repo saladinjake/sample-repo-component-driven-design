@@ -4,13 +4,15 @@ import Box from "../Box/Box";
 import Base from "../Base"
 import libraryConfig from "../../libraryConfig";
 import "../../main.css";
-const { colors } = libraryConfig;
+const { colors, rounds, shadows, transitions } = libraryConfig;
 
 export const SelectLabel = styled.label`
-  font-size: 13.5px;
-  line-height: 18px;
-  margin-bottom: 10px;
-  color:#000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 8px;
+  color: ${colors.kudaPurple};
+  transition: ${transitions.smooth};
 `;
 
 export const RequiredAsterisk = styled(Box)`
@@ -23,54 +25,67 @@ export const Wrapper = styled(Flex)<{
   variant?: string;
   error?: boolean;
 }>`
-  background: ${({ disabled }) => (disabled ? "#EFEFEF4D" : "#ffffff")};
-  border: ${(props) =>
-    props.variant !== "outline" ? "1px solid #f4f4f4" : "1px solid #DBDCE0"};
-  box-shadow: ${(props) =>
-    props.variant !== "outline" && "0px 2px 2px rgba(0, 0, 0, 0.1)"};
-  border-radius: 5px;
-  min-height: 46px;
+  background: ${({ disabled }) => (disabled ? colors.kudaLighterGrey : colors.kudaWhite)};
+  border: 1.5px solid ${colors.kudaLighterGrey};
+  border-radius: ${rounds.md};
+  min-height: 48px;
   max-height: 80px;
-  overflow-y: hidden;
   width: ${(props) => (props.width ? props.width : "372px")};
-  text-align: left;
-  position: relative;
   cursor: ${(props) => (props.disabled ? "not-allowed" : "pointer")};
-  padding: 10px;
+  padding: 12px 16px;
+  transition: ${transitions.smooth};
+  box-shadow: ${shadows.xs};
+
+  &:hover:not(:disabled) {
+    border-color: ${colors.kudaBlue}80;
+    box-shadow: ${shadows.sm};
+  }
+
+  &:focus-within {
+    border-color: ${colors.kudaBlue};
+    box-shadow: 0 0 0 4px ${colors.kudaBlue}15;
+  }
 
   .selected {
     white-space: nowrap;
     text-overflow: ellipsis;
-    overflow-x: clip;
+    overflow: hidden;
     width: 90%;
-    min-height: 20px;
-    padding-top: 3px;
-  }
-
-  .selected-options {
-    overflow: auto;
+    font-size: 15px;
+    font-weight: 400;
+    color: ${colors.kudaBlack};
   }
 
   ${({ error }) =>
     error &&
     `
-    border: 1px solid ${colors.kudaRed};
+    border-color: ${colors.kudaRed};
+    &:focus-within {
+      box-shadow: 0 0 0 4px ${colors.kudaRed}15;
+    }
 `}
 `;
 
 export const SelectWrapper = styled(Flex)`
   position: absolute;
-  z-index: 1000000;
+  z-index: 1000;
   width: 100%;
-  top: 60px;
-  background: #ffffff;
-  border: 1px solid rgba(219, 220, 224, 0.5);
-  box-shadow: 15px 30px 40px rgba(64, 25, 109, 0.07);
-  border-radius: 5px;
+  top: calc(100% + 8px);
+  background: ${colors.surfaceGlass};
+  backdrop-filter: blur(12px);
+  border: 1px solid ${colors.borderGlass};
+  box-shadow: ${shadows.lg};
+  border-radius: ${rounds.lg};
   cursor: pointer;
-  max-height: 40vh;
+  max-height: 300px;
   overflow-y: auto;
-  overflow-x: hidden;
+  transition: ${transitions.springy};
+  animation: slideDown 0.3s ease-out;
+
+  @keyframes slideDown {
+    from { transform: translateY(-10px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
 
   ::-webkit-scrollbar {
     width: 4px;
@@ -113,20 +128,29 @@ export const SelectOption = styled.button<{
   align-items: center;
   background: transparent;
   border-style: none;
-  border-bottom: ${(props) => !props.isLastItem && "1px solid #f4f4f4"};
-  padding: 16px 14px;
+  border-bottom: ${(props) => !props.isLastItem && `1px solid ${colors.borderGlass}`};
+  padding: 14px 18px;
   cursor: pointer;
   text-align: left;
-  font-size: ${(props) => props.optionFontSize || "15px"};
-  font-weight: ${(props) => props.optionFontWeight || "400"};
+  font-size: ${(props) => props.optionFontSize || "14px"};
+  font-weight: ${(props) => props.optionFontWeight || "500"};
   line-height: 20px;
+  transition: ${transitions.smooth};
+  color: ${colors.kudaBlack};
   
-  &:hover {
-    background: ${libraryConfig.colors.kudaLighterGrey};
+  &:hover:not(:disabled) {
+    background: ${colors.kudaBlue}10;
+    color: ${colors.kudaBlue};
+    padding-left: 22px;
+  }
+
+  &:active {
+    background: ${colors.kudaBlue}20;
   }
 
   :disabled {
     cursor: not-allowed;
+    opacity: 0.4;
   }
 `;
 

@@ -2,15 +2,36 @@ import { IGridItemProps, IGridProps } from "./Grid.types";
 import Base from "../Base/Base";
 import styled from "styled-components";
 
+import manageBreakpoints from "../../utilities/manageBreakpoints";
+import libraryConfig from "../../libraryConfig";
+
 export const GridRoot = styled(Base)<IGridProps>`
   display: grid;
-  grid-template-columns: ${(props) =>
-    props.templateColumn ? props.templateColumn : ""};
-  grid-template-rows: ${(props) =>
-    props.templateRow ? props.templateRow : ""};
-  grid-gap: ${(props) => (props.gap ? props.gap : "")};
-  grid-row-gap: ${(props) => (props.rowGap ? props.rowGap : "")};
-  grid-column-gap: ${(props) => (props.columnGap ? props.columnGap : "")};
+  
+  ${({ columns, theme }) =>
+    columns
+      ? manageBreakpoints(
+          "grid-template-columns",
+          columns,
+          theme,
+          (val) => `repeat(${val}, 1fr)`
+        )
+      : ""};
+
+  ${({ templateColumn, theme }) =>
+    templateColumn ? manageBreakpoints("grid-template-columns", templateColumn, theme) : ""};
+
+  ${({ templateRow, theme }) =>
+    templateRow ? manageBreakpoints("grid-template-rows", templateRow, theme) : ""};
+
+  ${({ gap, theme }) =>
+    gap ? manageBreakpoints("gap", gap, theme, libraryConfig.spacing) : ""};
+
+  ${({ rowGap, theme }) =>
+    rowGap ? manageBreakpoints("row-gap", rowGap, theme, libraryConfig.spacing) : ""};
+
+  ${({ columnGap, theme }) =>
+    columnGap ? manageBreakpoints("column-gap", columnGap, theme, libraryConfig.spacing) : ""};
 `;
 
 export const Item = styled(Base)<IGridItemProps>`

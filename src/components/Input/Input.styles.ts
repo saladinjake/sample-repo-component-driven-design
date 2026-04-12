@@ -9,7 +9,7 @@ import MediaScreenBuilder, {
   screenDeviceManager,
 } from "../../utilities/pixelScreenBuilder";
 
-const { colors } = libraryConfig;
+const { colors, shadows, transitions, rounds } = libraryConfig;
 
 export const StyledInput = styled(Base)<InputProps>`
   display: flex;
@@ -18,12 +18,13 @@ export const StyledInput = styled(Base)<InputProps>`
   box-sizing: border-box;
 
   label {
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: ${colors.kudaPurple};
+    margin-bottom: 8px;
     text-transform: capitalize;
+    transition: ${transitions.smooth};
 
     span {
       color: ${colors.kudaRed};
@@ -31,51 +32,53 @@ export const StyledInput = styled(Base)<InputProps>`
   }
 
   .input-wrap {
-    height: 46px;
+    height: 48px;
     display: flex;
-    width: calc(100% + 2px);
+    width: 100%;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #f4f4f4;
-    box-sizing: border-box;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
-    border-radius: ${({ hasSearch }) =>
-      hasSearch ? "5px 0px 0px 5px" : "5px"};
+    border-radius: ${rounds.md};
+    transition: ${transitions.smooth};
+    background: ${({ disabled }) => (disabled ? colors.kudaLighterGrey : colors.kudaWhite)};
+    box-shadow: ${shadows.xs};
 
     input {
       width: 100%;
-      height: 46px;
-      padding: 15px 10px;
+      height: 100%;
+      padding: 12px 16px;
       outline: none;
-      border: 1px solid #f4f4f4;
-      background: ${({ disabled }) => (disabled ? "#EFEFEF30" : "#ffffff")};
-      border-radius: ${({ hasSearch }) =>
-        hasSearch ? "5px 0px 0px 5px" : "5px"};
-      font-size: 16px;
+      border: 1.5px solid ${colors.kudaLighterGrey};
+      background: transparent;
+      border-radius: ${rounds.md};
+      font-size: 15px;
+      transition: ${transitions.smooth};
+      color: ${colors.kudaBlack};
+
       &:focus {
-        border: ${(props) =>
-          !props.disabled ? "1px solid rgba(64, 25, 109, 0.3)" : ""};
+        border-color: ${colors.kudaBlue};
+        box-shadow: 0 0 0 4px ${colors.kudaBlue}15;
       }
 
       &:disabled {
         cursor: not-allowed;
+        color: ${colors.kudaGrey};
       }
+      
       ${({ error }) =>
         error &&
         `
-          border: 1px solid ${colors.kudaRed};
-          &:focus, &:hover {
-            border: 1px solid ${colors.kudaRed};
-          };
+          border-color: ${colors.kudaRed};
+          &:focus {
+            box-shadow: 0 0 0 4px ${colors.kudaRed}15;
+          }
       `}
     }
 
     input::placeholder {
-      font-size: 16px;
-      line-height: 28px;
+      font-size: 14px;
       color: ${colors.kudaGrey};
-      font-weight: 500;
+      font-weight: 400;
     }
   }
 

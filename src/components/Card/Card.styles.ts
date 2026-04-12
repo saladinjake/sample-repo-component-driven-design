@@ -3,22 +3,32 @@ import libraryConfig from "../../libraryConfig";
 import "../../main.css";
 import Base from "../Base"
 import { Link } from "react-router-dom";
-const { colors } = libraryConfig;
+const { colors, shadows, transitions, rounds } = libraryConfig;
 
 export const StyledCard = styled(Base)<{
   width?: string;
   height?: string;
+  isGlass?: boolean;
 }>`
-  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05);
-  width: ${({ width }) => width || "260.07px"};
-  height: ${({ height }) => height || "80px"};
-  padding: 0 18px;
-  border-radius: 5px;
-  border: 1px solid ${colors.kBlack200}};
-  gap: 10px;
+  width: ${({ width }) => width || "260px"};
+  height: ${({ height }) => height || "auto"};
+  min-height: 80px;
+  padding: 20px;
+  border-radius: ${rounds.lg};
+  background: ${({ isGlass }) => (isGlass ? colors.surfaceGlass : colors.kudaWhite)};
+  backdrop-filter: ${({ isGlass }) => (isGlass ? "blur(12px)" : "none")};
+  border: 1px solid ${({ isGlass }) => (isGlass ? colors.borderGlass : colors.kudaLighterGrey)};
+  box-shadow: ${shadows.md};
+  transition: ${transitions.smooth};
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 12px;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: ${shadows.lg};
+    border-color: ${colors.kudaBlue}40;
+  }
 
   .ellipsis {
     white-space: nowrap;

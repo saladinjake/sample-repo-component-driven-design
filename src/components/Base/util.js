@@ -2,12 +2,11 @@ import styled, { css } from 'styled-components'
 import CssDefaults from './cssConfig'
 
 const screenSizes = {
-  
   '2xl': 5000, 
   xl: 2090, 
   lg: 1800, 
   md: 1280, 
-  tabPortrait: 1024, //tablets
+  tabPortrait: 1024,
   tab: 1000,
   sm: 926, 
   xs: 480,
@@ -33,42 +32,41 @@ export const mediaQuery = Object.keys(screenSizes).reduce(
         `
       }
     }
-
     return accumulator
   },
   {}
 )
+
 export const runAdditivesOnQueries = styledObjects => {
   if (styledObjects) {
+    const processed = {};
     for (let [key, value] of Object.entries(styledObjects)) {
-      //allow camel case css
-      if (styledObjects) {
-        key = isCamelCase(key) && CssDefaults[key] ? CssDefaults[key] : key
-        styledObjects[key] = value
-      }
+      const cssKey = isCamelCase(key) && CssDefaults[key] ? CssDefaults[key] : key;
+      processed[cssKey] = value;
     }
-    //do stuffs here before css jumbling is done with media queries
-    const dataString =
-      styledObjects &&
-      JSON.stringify(styledObjects)
-        .replace(/[{}"']/g, '')
-        .replace(/,/g, ';') + ';'
-
-    return dataString
+    
+    return Object.entries(processed)
+      .map(([key, value]) => `${key}: ${value};`)
+      .join('\n');
   }
+  return '';
 }
+
 export const responsiveQueriesFluxMapper = queriesSets => {
   return Object.keys(queriesSets).map(key => {
     if (mediaQuery.hasOwnProperty(key)) {
       return mediaQuery[key]`
-        ${runAdditivesOnQueries(queriesSets[key])};
-    `
-    } else {
-      mediaQuery['all']`
-        ${runAdditivesOnQueries(queriesSets['all'])};
-    `
+        ${runAdditivesOnQueries(queriesSets[key])}
+      `;
     }
-  })
+    return '';
+  });
+}
+
+const transformValue = (value, manager) => {
+  if (!manager) return value;
+  if (typeof manager === 'function') return manager(value);
+  return manager[value] !== undefined ? manager[value] : value;
 }
 
 export const mediaPropsRevolver = (key, value, manager) => {
@@ -83,70 +81,38 @@ export const mediaPropsRevolver = (key, value, manager) => {
     8: '2xl',
   }
   const querySets = {}
-  key = isCamelCase(key) && CssDefaults[key] ? CssDefaults[key] : key
-  //one prop one media slot chance only
-  const result = value.map((item, index) => {
-    if (index) {
-      //allow camel case css
-
-      return (querySets[screensByIndex[index]] = {
-        [key]: `${manager && manager[item] ? manager[item] : item}`,
-      })
+  const cssKey = isCamelCase(key) && CssDefaults[key] ? CssDefaults[key] : key;
+  
+  value.forEach((item, index) => {
+    const val = transformValue(item, manager);
+    const screen = index === 0 ? 'all' : screensByIndex[index];
+    if (screen) {
+      querySets[screen] = { ...querySets[screen], [cssKey]: val };
     }
-    return (querySets['all'] = {
-      [key]: `${manager && manager[item] ? manager[item] : item}`,
-    })
-  })
+  });
+  
   return querySets
 }
 
-//usage:  <Box padding={{ sm: {}, lg: {}, tabs:{}, md:{}, xl:{}, all: {}, "2xl": {} }} />
 export const mediaPropsRebaser = (key, values, manager) => {
-  // one prop one rebaser slot
-  const screensByIndex = {
-    xs: 'xs',
-    sm: 'sm',
-    tab: 'tab',
-    tabPortrait: 'tabPortrait',
-    md: 'md',
-    lg: 'lg',
-    xl: 'xl',
-    '2xl': '2xl',
-  }
   const querySets = {}
-  for (const [keyQuery, valueItem] of Object.entries(values)) {
-    //allow camel case css
-    key = isCamelCase(key) && CssDefaults[key] ? CssDefaults[key] : key
+  const cssKey = isCamelCase(key) && CssDefaults[key] ? CssDefaults[key] : key;
 
-    if (Object.keys(valueItem).length > 1) {
-      const subsets = {}
-      for (const [keyQ, valueI] of Object.entries(valueItem)) {
-        subsets[keyQ] = valueI
-      }
-      querySets[keyQuery] = {
-        ...subsets,
-      }
+  for (const [screen, val] of Object.entries(values)) {
+    if (typeof val === 'object' && val !== null && !Array.isArray(val)) {
+        querySets[screen] = { ...querySets[screen], ...val };
     } else {
-      querySets[keyQuery] = {
-        [key]: valueItem,
-      }
+        const transformed = transformValue(val, manager);
+        querySets[screen] = { ...querySets[screen], [cssKey]: transformed };
     }
   }
 
   return querySets
 }
 
-
-
-/*more utils*/
-/*css extracts */
-export const getFloatingWidthValue=  (span, withFloat =false) => {
-    const floatCss =``;
-    if (!span) return
-    if(withFloat){
-       floatCss = `float:left`
-    }
-
+export const getFloatingWidthValue = (span, withFloat = false) => {
+    if (!span) return ''
+    let floatCss = withFloat ? 'float: left;' : '';
     let width = (span / 12) * 100
     return `width: ${width}%; ${floatCss}`
 }
@@ -154,33 +120,16 @@ export const getFloatingWidthValue=  (span, withFloat =false) => {
 export const getPlainCss = (objectRefStyles) => {
     let str = ''
     for (const [key, value] of Object.entries(objectRefStyles)) {
-        let clo = ''
-        key.split('').forEach(lt => {
-            if (lt.toUpperCase() === lt) {
-                clo += '-' + lt.toLowerCase()
-            } else {
-                clo += lt
-            }
-        })
-        str += clo + ':' + value + ';'
+        const cssKey = key.replace(/[A-Z]/g, lt => `-${lt.toLowerCase()}`);
+        str += `${cssKey}:${value};`
     }
-  
-    return css`
-        ${str}
-    `
+    return css`${str}`
 }
 
-export const singleCssStylePropsMapper = (props, options=CssDefaults) =>{
-  
-  const keysOptions = Object.keys(options);
-  const keysProps = Object.keys(props);
-   //only css props allowed here
+export const singleCssStylePropsMapper = (props, options = CssDefaults) => {
   for (const [key, value] of Object.entries(props)) {
-    if( Object.prototype.hasOwnProperty.call(options,key)){
-      return   getPlainCss({[key]: value})
+    if (Object.prototype.hasOwnProperty.call(options, key)) {
+      return getPlainCss({ [key]: value })
     }
-
   }
-  
 }
-

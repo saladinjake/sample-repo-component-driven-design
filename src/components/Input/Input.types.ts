@@ -1,7 +1,7 @@
-import { HTMLProps, SyntheticEvent } from "react";
+import { SyntheticEvent, MouseEventHandler } from "react";
+import IBaseProps from "../Base/Base.types";
 
-export interface InputProps
-  extends Omit<HTMLProps<HTMLInputElement>, "size" | "onChange"> {
+export interface InputProps extends IBaseProps {
   id?: string;
 
   /**
@@ -26,12 +26,11 @@ export interface InputProps
   required?: boolean;
 
   onChange?: (inputValue: string) => void;
-  onKeyDown?: (event) => void;
-  onKeyUp?: (event) => void;
+  onKeyDown?: (event: any) => void;
+  onKeyUp?: (event: any) => void;
 
-  onFocus? :(event: SyntheticEvent) => void;
-  onBlur?: (event: SyntheticEvent ) => void;
-  
+  onFocus?: (event: SyntheticEvent) => void;
+  onBlur?: (event: SyntheticEvent) => void;
 
   onChangePure?: (event: SyntheticEvent) => void;
 
@@ -41,6 +40,11 @@ export interface InputProps
   isLoading?: boolean;
   handleSearch?: (value: string) => void;
   tooltipText?: string;
+  onClick?: MouseEventHandler<HTMLInputElement>;
+  min?: string | number;
+  max?: string | number;
+  minLength?: number;
+  maxLength?: number;
 }
 
 export type PeriodInputProps = {
@@ -50,7 +54,6 @@ export type PeriodInputProps = {
   required?: boolean;
   error?: boolean;
   message?: string;
-  
 };
 
 export type Period = {

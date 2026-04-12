@@ -630,5 +630,6 @@ export default interface IBaseProps {
   zoom?: string | any;
 
   //responsive query
-   sx?: any;
+  style?: any;
+  sx?: any;
 }

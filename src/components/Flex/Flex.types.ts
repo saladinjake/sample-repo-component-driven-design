@@ -3,7 +3,7 @@ export const flexDisplays = {
   center: "center",
   between: "space-between",
   around: "space-around",
-  even: "space-even",
+  even: "space-evenly",
   start: "flex-start",
   end: "flex-end",
 };
